@@ -197,7 +197,7 @@ function App() {
             fitView
             style={rfStyle}
           >
-            <Background variant="dots" gap={12} size={1} />
+            <Background variant="lines" gap={12} size={1} />
             <Controls />
             <MiniMap zoomable pannable />
           </ReactFlow>
